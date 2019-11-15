@@ -1,0 +1,37 @@
+body {
+    background-color: lightgreen;
+}
+
+.title h1 {
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    display: grid;
+    align-content: center;
+    grid-template-rows: row;
+    background-image: url("../css/images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid forestgreen;
+    border-radius: 10%;
+    text-align: center;
+    height: 300px;
+    text-shadow: 
+    -2px -2px 0 forestgreen,  
+    2px -2px 0 forestgreen,
+    -2px 2px 0 forestgreen,
+     2px 2px 0 forestgreen;
+}
+
+.subtitle {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    text-decoration: underline;
+}
