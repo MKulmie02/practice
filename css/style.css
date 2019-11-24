@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+  }
+
+header {
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    padding: 0 20px;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 0;
+    font-family: Helvetica, auto;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
