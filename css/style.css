@@ -1,12 +1,13 @@
 body {
     background-color: rgb(126, 214, 255);
+    padding: 20px;
 }
 
 .one {
     text-align: center;
     background-color:  rgb(69, 153, 192);
     color: white;
-    margin: 15px;
+    margin: 20px;
     border: 1px solid rgb(69, 153, 192);
     border-radius: 20px;
 }
@@ -16,6 +17,29 @@ h1 {
     padding-bottom: 25px;
     font-size: 70px;
 }
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgb(69, 153, 192);
+    border: 1px solid rgb(69, 153, 192);
+    border-radius: 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.nav:hover {
+    transition-property: background-color;
+    background-color: rgb(57, 133, 168);
+    transition-duration: 300ms;
+}
+
 
 
 
