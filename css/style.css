@@ -1,20 +1,18 @@
 body {
-    background-color: rgb(126, 214, 255);
+    background-color: white;
     padding: 20px;
 }
 
 .one {
     text-align: center;
-    background-color:  rgb(69, 153, 192);
+    background-color:  rgb(235, 50, 50);
     color: white;
     margin: 20px;
-    border: 1px solid rgb(69, 153, 192);
+    border: 1px solid rgb(235, 50, 50);
     border-radius: 20px;
 }
 
 h1 {
-    padding-top: 25px;
-    padding-bottom: 25px;
     font-size: 70px;
 }
 
@@ -28,8 +26,8 @@ h1 {
     margin-left: 10px;
     margin-right: 10px;
     padding: 10px;
-    background-color: rgb(69, 153, 192);
-    border: 1px solid rgb(69, 153, 192);
+    background-color: rgb(235, 50, 50);
+    border: 1px solid rgb(235, 50, 50);
     border-radius: 25px;
     color: white;
     font-size: 25px;
@@ -42,13 +40,24 @@ a {
 
 .nav:hover {
     transition-property: background-color;
-    background-color: rgb(57, 133, 168);
+    background-color: rgb(187, 33, 33);
     transition-duration: 300ms;
 }
 
 .nav:hover {
     transition-property: border-radius;
     border-radius: 15px;
+    transition-duration: 200ms;
+}
+
+iframe {
+    border: 1px solid red;
+    border-radius: 25px;
+}
+
+iframe:hover {
+    transition-property: border-radius;
+    border-radius: 0px;
     transition-duration: 200ms;
 }
 
